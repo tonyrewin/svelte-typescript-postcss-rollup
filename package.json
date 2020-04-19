@@ -1,0 +1,38 @@
+{
+  "name": "svelte-typescript-rollup-postcss",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [
+	  "svelte",
+	  "typescript",
+	  "rollup",
+	  "postcss"
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "*",
+    "@pyoner/svelte-types": "*",
+    "@rollup/plugin-commonjs": "*",
+    "@rollup/plugin-node-resolve": "*",
+    "@rollup/plugin-typescript": "*",
+    "cssnano": "*",
+    "postcss": "*",
+    "postcss-import": "*",
+    "postcss-preset-env": "*",
+    "postcss-url": "*",
+    "rollup": "*",
+    "rollup-plugin-analyzer": "*",
+    "rollup-plugin-livereload": "*",
+    "rollup-plugin-serve": "*",
+    "rollup-plugin-svelte": "*",
+    "rollup-plugin-terser": "*",
+    "svelte": "latest",
+    "svelte-preprocess": "*",
+    "svelte-preprocess-postcss": "*",
+    "tslib": "*",
+    "typescript": "latest"
+  }
+}
